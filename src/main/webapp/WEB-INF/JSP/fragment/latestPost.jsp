@@ -10,55 +10,55 @@
 	<ul class="latest_postnav">
 		<li>
 			<div class="media">
-				<a href="pages/single_page.html" class="media-left"> <img alt=""
+				<a href="/single_page" class="media-left"> <img alt=""
 					src="images/post_img1.jpg">
 				</a>
 				<div class="media-body">
-					<a href="pages/single_page.html" class="catg_title"> Aliquam
+					<a href="/single_page" class="catg_title"> Aliquam
 						malesuada diam eget turpis varius 1</a>
 				</div>
 			</div>
 		</li>
 		<li>
 			<div class="media">
-				<a href="pages/single_page.html" class="media-left"> <img alt=""
+				<a href="/single_page" class="media-left"> <img alt=""
 					src="images/post_img1.jpg">
 				</a>
 				<div class="media-body">
-					<a href="pages/single_page.html" class="catg_title"> Aliquam
+					<a href="/single_page" class="catg_title"> Aliquam
 						malesuada diam eget turpis varius 2</a>
 				</div>
 			</div>
 		</li>
 		<li>
 			<div class="media">
-				<a href="pages/single_page.html" class="media-left"> <img alt=""
+				<a href="/single_page" class="media-left"> <img alt=""
 					src="images/post_img1.jpg">
 				</a>
 				<div class="media-body">
-					<a href="pages/single_page.html" class="catg_title"> Aliquam
+					<a href="/single_page" class="catg_title"> Aliquam
 						malesuada diam eget turpis varius 3</a>
 				</div>
 			</div>
 		</li>
 		<li>
 			<div class="media">
-				<a href="pages/single_page.html" class="media-left"> <img alt=""
+				<a href="/single_page" class="media-left"> <img alt=""
 					src="images/post_img1.jpg">
 				</a>
 				<div class="media-body">
-					<a href="pages/single_page.html" class="catg_title"> Aliquam
+					<a href="/single_page" class="catg_title"> Aliquam
 						malesuada diam eget turpis varius 4</a>
 				</div>
 			</div>
 		</li>
 		<li>
 			<div class="media">
-				<a href="pages/single_page.html" class="media-left"> <img alt=""
+				<a href="/single_page" class="media-left"> <img alt=""
 					src="images/post_img1.jpg">
 				</a>
 				<div class="media-body">
-					<a href="pages/single_page.html" class="catg_title"> Aliquam
+					<a href="/single_page" class="catg_title"> Aliquam
 						malesuada diam eget turpis varius 2</a>
 				</div>
 			</div>

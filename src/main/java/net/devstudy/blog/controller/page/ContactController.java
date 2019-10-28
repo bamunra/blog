@@ -9,20 +9,21 @@ import javax.servlet.http.HttpServletResponse;
 
 import net.devstudy.blog.controller.AbstractController;
 
-@WebServlet({"/news","/news/*"})
-public class NewsController extends AbstractController {
+@WebServlet("/contact")
+public class ContactController extends AbstractController {
 
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 216595477139640552L;
+	private static final long serialVersionUID = 7089871282763553056L;
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("wwwwwwwwwwwwwwwwwwwwwww");
-		forvardToPage("news.jsp", req, resp);
 
+		forvardToPage("contact.jsp", req, resp);
+		
 	}
+
 	
 	
 }
