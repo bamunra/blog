@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 
+<jsp:include page="../fragment/newsSection.jsp"></jsp:include>
+
 <div class="row">
 	<div class="col-lg-8 col-md-8 col-sm-8">
 		<div class="left_content">

@@ -33,7 +33,7 @@
 		<header id="header">
 			<jsp:include page="fragment/header.jsp"></jsp:include>
 		</header>
-		<jsp:include page="fragment/newsSection.jsp"></jsp:include>
+
 		<section id="contentSection">
 			<jsp:include page="${currentPage }"></jsp:include>
 		</section>

@@ -11,6 +11,13 @@
 				</ul>
 			</div>
 			<div class="header_top_right">
+				<form action="/search" method="get">
+					<div class="input-group" style="margin-top: 1em;">
+						<input id="search" class="input-group-field" name="query"
+							placeholder="Search query" type="text" value="${searchQuery }">
+						<input class="button" value="Find" type="submit">
+					</div>
+				</form>
 				<p>Friday, December 05, 2045</p>
 			</div>
 		</div>
