@@ -19,9 +19,7 @@ public class NewsController extends AbstractController {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("wwwwwwwwwwwwwwwwwwwwwww");
 		forvardToPage("news.jsp", req, resp);
-
 	}
 	
 	
