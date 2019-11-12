@@ -18,7 +18,7 @@ public class ServiceManager {
 	private static final String SERVICE_MANAGER = "SERVICE_MANAGER";
 	private static final Logger LOGGER = LoggerFactory.getLogger(ServiceManager.class);
 	private final BusinessService businessService;
-	private final BasicDataSource dataSource;
+	final BasicDataSource dataSource;
 	private final Properties applicationProperties = new Properties();
 	
 	public static ServiceManager getInstance(ServletContext context) {
@@ -45,9 +45,8 @@ public class ServiceManager {
 
 	private ServiceManager(ServletContext context) {
 		AppUtil.loadProperties(applicationProperties, "application.properties");
-		System.out.println(applicationProperties);
 		dataSource = createBasicDataSource();
-		businessService = new BusinessServiceImpl();
+		businessService = new BusinessServiceImpl(this);
 
 		LOGGER.info("ServiceManager instance created");
 	}
@@ -68,5 +67,7 @@ public class ServiceManager {
 	public String getApplicationProperty(String property) {
 		return applicationProperties.getProperty(property);
 	}
+	
+	
 	
 }

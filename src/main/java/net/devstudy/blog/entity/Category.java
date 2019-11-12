@@ -21,6 +21,7 @@ public class Category extends AbstractEntity<Integer> {
 	}
 	public int getArticles() {
 		return articles;
+		
 	}
 	public void setArticles(int articles) {
 		this.articles = articles;

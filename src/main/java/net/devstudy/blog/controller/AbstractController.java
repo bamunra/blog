@@ -32,7 +32,6 @@ public abstract class AbstractController extends HttpServlet {
 	
 	public final void forvardToPage(String jspPage, HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//req.setAttribute("currentPage", "page/" + jspPage);
-		System.out.println("qwerqwerqwerqwerqwre");
 		req.setAttribute("currentPage", "page/" +  jspPage);
 		req.getRequestDispatcher("/WEB-INF/JSP/page-template.jsp").forward(req, resp);
 
